@@ -1,7 +1,8 @@
 import React from 'react'
 import InputBox from './InputBox';
-import Stories from './Stories';
 import Posts from './Posts';
+import Stories from './Stories';
+
 
 type Props = {}
 
