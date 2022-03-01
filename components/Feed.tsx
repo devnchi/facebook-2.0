@@ -1,6 +1,7 @@
 import React from 'react'
 import InputBox from './InputBox';
 import Stories from './Stories';
+import Posts from './Posts';
 
 type Props = {}
 
@@ -10,7 +11,7 @@ function Feed({}: Props) {
         <div className='mx-auto max-w-md md:max-w-lg lg:max-w-2xl'>
             <Stories />
             <InputBox />
-            {/* Posts */}
+            <Posts />
         </div>
     </div>
   )
